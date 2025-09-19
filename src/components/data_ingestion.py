@@ -45,6 +45,7 @@ class DataIngestion:
             )
         except Exception as e:
             raise CustomException(e,sys)
+<<<<<<< HEAD
         
 
 if __name__=="__main__":
@@ -55,3 +56,5 @@ if __name__=="__main__":
     train_data,test_data,preprocessor_path=data_transformation.initiate_data_transformation(train_path,test_path)
 
 
+=======
+>>>>>>> 7b5cc03cf2c619b8d023f275fc1e02651e88203e
